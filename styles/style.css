@@ -14,7 +14,7 @@
 /* shared style */
 .width {
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .grey {
@@ -88,4 +88,59 @@ span {
 
 .banner .banner-img {
     max-width: 570px;
+}
+
+
+/* plants section style */
+
+.plants {
+    margin: 0 auto;
+}
+
+.plants h3 {
+
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.plants p {
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    Font-size: 1.5rem;
+    margin-top: 13px;
+}
+
+.cards {
+    margin-top: 45px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card img {
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.cards .card h3 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.cards .card h4 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
