@@ -56,3 +56,36 @@
     text-decoration: none;
 
 }
+
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 120px;
+}
+
+.banner .banner-container {
+    max-width: 570px;
+}
+
+.banner .banner-container h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+span {
+    color: rgb(233, 90, 8);
+}
+
+.banner .banner-container p {
+    font-family: Inter;
+    font-weight: 400;
+    Font-size: 1.5rem;
+    margin-top: 13px;
+}
+
+.banner .banner-img {
+    max-width: 570px;
+}
