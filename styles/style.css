@@ -94,7 +94,7 @@ span {
 /* plants section style */
 
 .plants {
-    margin: 0 auto;
+    margin: 200px auto;
 }
 
 .plants h3 {
@@ -143,4 +143,50 @@ span {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 15px;
+}
+
+/* plant-lover styles */
+.plants-lover {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+.plants-lover > div{
+    flex: 1;
+}
+.plants-lover-img {
+    position: relative;
+}
+
+.plants-lover-img2 {
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 400px;
+    top: -150px;
+}
+
+.plants-lover h3,
+.latest h3 {
+
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.plants-lover-description h2 {
+    margin-top: 38px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700
+}
+
+.plants-lover-description ul li {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+
 }
