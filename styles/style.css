@@ -3,3 +3,56 @@
 .noto-serif {
     font-family: "Noto Serif", serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* shared style */
+.width {
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.grey {
+    color: rgb(137, 135, 161);
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    background: rgb(233, 90, 8);
+    padding: 20px 50px 20px 50px;
+    border: none;
+    width: 270px;
+}
+
+
+/* navbar styles */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+.navbar .menu-item ul {
+    display: flex;
+    gap: 48px;
+}
+
+.navbar .menu-item ul li {
+    list-style: none;
+
+}
+
+.navbar .menu-item ul li a {
+    text-decoration: none;
+
+}
