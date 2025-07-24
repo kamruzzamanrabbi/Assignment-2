@@ -153,9 +153,11 @@ span {
     align-items: center;
 
 }
-.plants-lover > div{
+
+.plants-lover>div {
     flex: 1;
 }
+
 .plants-lover-img {
     position: relative;
 }
@@ -318,4 +320,28 @@ input[type="email"] {
     padding: 15px 50px 15px 50px;
     border: none;
     width: 270px;
+}
+
+
+/* footer section styles*/
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+
+.footer-section>div>img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.footer-section ul li a {
+    color: rgb(137, 135, 161);
+    text-decoration: none;
 }
