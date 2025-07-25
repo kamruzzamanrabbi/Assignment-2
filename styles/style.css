@@ -473,7 +473,7 @@ input[type="email"] {
 
     /* footer section */
     .footer-section {
-
+        margin-top: 50px;
         margin-bottom: 200px;
         flex-direction: column;
     }
