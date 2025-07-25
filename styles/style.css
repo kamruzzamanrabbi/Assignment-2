@@ -360,12 +360,14 @@ input[type="email"] {
     .latest,
     .join,
     .footer-section {
+        padding: 0 10px;
         margin: 0 auto;
         width: 100%;
         height: 100%;
     }
 
     /* navbar */
+
     .navbar .menu-item .none {
         display: none;
     }
