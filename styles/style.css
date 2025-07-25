@@ -348,7 +348,10 @@ input[type="email"] {
 
 
 /* mobile responsive */
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 668px) {
+    .logo img {
+        width: 100%;
+    }
 
     .navbar,
     .banner,
@@ -362,13 +365,15 @@ input[type="email"] {
         height: 100%;
     }
 
+    /* navbar */
     .navbar .menu-item .none {
         display: none;
     }
 
+    /* banner */
     .banner {
 
-        margin: 10px 10px;
+        margin: 0;
         flex-direction: column-reverse;
         gap: 20px;
         justify-content: center;
@@ -385,6 +390,7 @@ input[type="email"] {
         margin-bottom: 20px;
     }
 
+    /* plants section */
     .plants-title {}
 
     .cards {
@@ -399,6 +405,7 @@ input[type="email"] {
         width: 100%;
     }
 
+    /* plants lover section */
     .plants-lover {
         margin-top: 20px;
         gap: 20px;
@@ -419,8 +426,13 @@ input[type="email"] {
         display: none;
     }
 
+    /* latest section */
     .latest {
         margin-bottom: 30px;
+    }
+
+    .card2 h5 {
+        text-align: center;
     }
 
     .latest h3,
@@ -432,15 +444,38 @@ input[type="email"] {
         margin: 30px auto;
         grid-template-columns: 1fr;
     }
-    .latest-cards .card{
+
+
+    .latest-cards .card2,
+    .card3 {
+        width: 100%;
         margin: 0 auto;
     }
+
+    .latest-cards .card1 {
+        margin: 0 auto;
+    }
+
     .latest-cards #card-2 {
         width: 366px;
         height: 206px;
     }
 
+    input[type="email"] {
+        width: 200px;
+    }
+
+    .btn2 {
+        width: 150px;
+    }
+
+    /* footer section */
     .footer-section {
         flex-direction: column;
+    }
+
+    .footer-section>div p {
+        text-align: left;
+        break-after: none;
     }
 }
