@@ -473,11 +473,13 @@ input[type="email"] {
 
     /* footer section */
     .footer-section {
+
+        margin-bottom: 200px;
         flex-direction: column;
     }
 
     .footer-section>div p {
         text-align: left;
-        break-after: none;
+
     }
 }
