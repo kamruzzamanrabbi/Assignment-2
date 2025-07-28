@@ -166,6 +166,7 @@ span {
     left: 400px;
     top: -150px;
 }
+
 /* plants lover optional part */
 @keyframes spin {
     from {
@@ -180,6 +181,7 @@ span {
 .plants-lover-img2 {
     animation: spin 5s linear infinite;
 }
+
 /* .plants-lover h3,
 .latest h3 {
 
@@ -402,7 +404,7 @@ input[type="email"] {
     .latest,
     .join,
     .footer-section {
-        padding: 0 10px;
+        padding: 0 5px;
         margin: 0 auto;
         width: 100%;
         height: 100%;
@@ -428,34 +430,60 @@ input[type="email"] {
         width: 100%;
     }
 
+    .banner .banner-container h2,
+    .plants-lover-description h2,
+    .plants h3,
+    .latest h3 {
+        font-size: 2rem;
+
+    }
+
     .banner-container h2,
     p {
+
         text-align: left;
         margin-bottom: 20px;
     }
 
     /* plants section */
 
+    br {
+        display: none;
+    }
 
-    .cards {
+    .plants .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plants .plants-title p {
+        text-align: center;
+
     }
 
     .cards .card img {
         width: 100%;
+
+
     }
 
     .cards .card button {
         width: 100%;
+        padding: 15px 25px;
     }
+
+
 
     /* plants lover section */
     .plants-lover {
-        margin-top: 20px;
+        margin-top: 45px;
         gap: 20px;
         margin-bottom: 30px;
         /* justify-content: center; */
         flex-direction: column;
+    }
+
+    .plants-lover-description h2 {
+        font-size: 2rem;
     }
 
     .plants-lover-description h2,
@@ -487,6 +515,7 @@ input[type="email"] {
 
     .card2 h5 {
         text-align: center;
+        font-size: 20px;
     }
 
     /* .latest h3,
@@ -500,19 +529,30 @@ input[type="email"] {
     }
 
 
-    .latest-cards .card2,
+    /* .latest-cards .card1 .card2,
     .card3 {
-        width: 100%;
-        margin: 0 auto;
+        width: 355.33px;
+        
+    } */
+    #card-2 {
+        width: 366px;
     }
 
-    .latest-cards .card1 {
+    .card1,
+    .card2,
+    .card3 {
+        width: 355.33px;
         margin: 0 auto;
     }
 
     .latest-cards #card-2 {
-        width: 366px;
+
         height: 206px;
+    }
+
+    .latest-cards #card-2 {
+
+        font-size: 20px;
     }
 
     input[type="email"] {
@@ -523,15 +563,28 @@ input[type="email"] {
         width: 150px;
     }
 
-    /* footer section */
-    .footer-section {
-        margin-top: 50px;
-        margin-bottom: 200px;
-        flex-direction: column;
+    /* join sectiom */
+    .join h1 {
+        font-size: 1.5rem;
     }
 
-    .footer-section>div p {
+    /* footer section */
+
+
+    .footer-section {
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 500px;
+
+    }
+
+    .footer-section .grey p {
         text-align: left;
 
+    }
+
+    .footer-img {
+        margin-left: 0px;
+        margin-right: 20px;
     }
 }
