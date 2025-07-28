@@ -9,9 +9,14 @@
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
+    <script>
+        function addToCart() {
+            alert("Flower Added to Cart");
+        }
+    </script>
 </head>
 
-<body>
+<body class="noto-serif">
     <header class="width">
         <!-- 1. Navbar section -->
         <nav class="navbar">
@@ -46,57 +51,60 @@
         <section class="plants width">
             <div class="plants-title">
                 <h3><span>Our</span> Plants</h3>
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic
-                    roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <p class="grey">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    <br>classic
+                    roses to exotic blooms, we offer a wide variety of fresh.
+                </p>
             </div>
-            <div class="cards">
+            <div class="cards width">
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
+                    <!-- <button class="btn">ADD TO CART</button> -->
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
                 <div class="card">
                     <img src="./assets/sample-flower-image.png" alt="">
                     <h3>Lily Blossom</h3>
                     <h4>20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <input type="button" class="btn" onclick="addToCart('Flower Added to Cart')" value="ADD TO CART">
                 </div>
             </div>
 
@@ -158,6 +166,7 @@
             </div>
         </section>
     </main>
+    <!-- 6. Footer Section -->
     <footer class="width">
         <section class="footer-section">
             <div>
